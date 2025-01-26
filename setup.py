@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 HYPHEN_E_DOT = '-e .'
+from typing import List
 
 def get_requirements(file_path: str) -> List[str]:
     """
